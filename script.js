@@ -30,3 +30,14 @@ if ('IntersectionObserver' in window) {
 } else {
   revealItems.forEach(el => el.classList.add('visible'));
 }
+
+document.querySelectorAll('[data-route-filter]').forEach(button => {
+  button.addEventListener('click', () => {
+    document.querySelectorAll('[data-route-filter]').forEach(b => b.classList.remove('active'));
+    button.classList.add('active');
+    const filter = button.dataset.routeFilter;
+    document.querySelectorAll('[data-trip-class]').forEach(card => {
+      card.style.display = (filter === 'all' || card.dataset.tripClass === filter) ? '' : 'none';
+    });
+  });
+});

@@ -1,19 +1,17 @@
-PROLINE TRANSPORTE — GITHUB PAGES UPLOAD
+PROLINE TRANSPORTE V2 — BLUE + PURPLE
 
-1. Extract this ZIP on your computer.
-2. Open the GitHub repository:
+1. Extract this ZIP.
+2. Open your GitHub repository:
    proline-transporte.github.io
-3. Click Add file → Upload files.
-4. Upload ALL files and folders INSIDE the extracted folder.
-5. Do not upload only the ZIP file.
-6. Click Commit changes.
-7. Open Settings → Pages.
-8. If needed choose:
-   Deploy from a branch
-   Branch: main
-   Folder: /(root)
-9. Your website will be:
-   https://proline-transporte.github.io/
+3. Add file → Upload files.
+4. Upload ALL files and folders inside the extracted folder.
+5. Replace matching V1 files.
+6. Commit changes to the main branch.
+7. GitHub Pages will redeploy automatically.
+
+NEW PAGE:
+https://proline-transporte.github.io/routes-prices.html
 
 IMPORTANT:
-The quote form is a visual website form only. It is not connected to email or a backend yet.
+Route fares and trip examples on the new page are external reference data
+from CheckMyBus / Transportes Línea. They may change.
