@@ -179,3 +179,324 @@ footer{background:linear-gradient(135deg,#050e25,#21083d)}
   .routes-hero{padding:70px 6vw}
   .routes-copy h1{font-size:53px}
 }
+
+
+/* ==========================================================
+   PROLINE TRANSPORTE V3 — RED + GREEN PREMIUM THEME
+   ========================================================== */
+
+:root{
+  --navy:#101312;
+  --navy2:#171c19;
+  --blue:#d71920;
+  --cyan:#27ae60;
+  --purple:#b30f17;
+  --purple2:#e63946;
+  --magenta:#ff4b55;
+  --green:#138a4a;
+  --green2:#20b563;
+  --green-light:#dff7e9;
+  --red:#d71920;
+  --red2:#ff3b47;
+  --red-light:#fff0f1;
+  --yellow:#b7f7cf;
+  --white:#ffffff;
+  --off:#f7faf8;
+  --ink:#151a17;
+  --muted:#6b766f;
+  --line:#dfe8e2;
+}
+
+body{
+  background:
+    radial-gradient(circle at 10% 0%,rgba(19,138,74,.05),transparent 22%),
+    radial-gradient(circle at 95% 5%,rgba(215,25,32,.05),transparent 20%),
+    #fff;
+}
+
+/* Header */
+.utility-bar{
+  background:linear-gradient(90deg,#101312,#163d28 52%,#4c1115);
+  border-bottom:1px solid rgba(255,255,255,.07);
+}
+.site-header{
+  background:rgba(255,255,255,.96);
+  box-shadow:0 8px 28px rgba(24,48,34,.07);
+}
+.nav a:hover,.nav a.active{
+  color:var(--red);
+  border-color:transparent;
+}
+.nav a:hover:after,.nav a.active:after{
+  content:"";
+  display:block;
+  height:2px;
+  margin-top:6px;
+  background:linear-gradient(90deg,var(--green),var(--red));
+  border-radius:20px;
+}
+.nav .quote-nav{
+  background:linear-gradient(135deg,var(--green),#0e6f3b 48%,var(--red));
+  color:#fff;
+  border-radius:10px;
+  box-shadow:0 10px 24px rgba(19,138,74,.18);
+}
+.nav .quote-nav:hover{
+  background:linear-gradient(135deg,var(--red),#b30f17 45%,var(--green));
+}
+
+.eyebrow{color:var(--green)}
+.eyebrow.light{color:#c7f7d8}
+
+.button{
+  border-radius:10px;
+  transition:.2s;
+}
+.primary{
+  background:linear-gradient(135deg,var(--green),#0d7b40);
+  color:white;
+  box-shadow:0 10px 24px rgba(19,138,74,.18);
+}
+.primary:hover{
+  box-shadow:0 14px 30px rgba(19,138,74,.25);
+}
+.purple{
+  background:linear-gradient(135deg,var(--red),#b30f17 52%,var(--green));
+  color:white;
+  box-shadow:0 10px 25px rgba(179,15,23,.18);
+}
+.yellow{
+  background:linear-gradient(135deg,#bff3d2,#7ee2a7);
+  color:#102317;
+}
+.secondary{
+  background:#fff;
+  border-color:#bdd6c5;
+}
+.text-link{color:var(--green)}
+
+/* Hero */
+.hero{
+  background:
+    radial-gradient(circle at 82% 18%,rgba(215,25,32,.17),transparent 24%),
+    radial-gradient(circle at 72% 65%,rgba(19,138,74,.16),transparent 23%),
+    linear-gradient(135deg,#ffffff 0%,#f2fbf5 50%,#fff3f3 100%);
+}
+.hero h1 em{
+  background:linear-gradient(90deg,var(--green),#179a53,var(--red));
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+.hero-points div{
+  border-top:0;
+  border-left:4px solid var(--green);
+  border-radius:12px;
+  box-shadow:0 12px 28px rgba(33,76,50,.07);
+}
+.hero-points div:nth-child(2){border-left-color:var(--red)}
+.hero-points div:nth-child(3){border-left-color:var(--green)}
+.hero-points strong{color:#163d28}
+.hero-visual{
+  background:
+    radial-gradient(circle at 47% 45%,rgba(19,138,74,.17),transparent 30%),
+    radial-gradient(circle at 67% 28%,rgba(215,25,32,.15),transparent 22%);
+}
+.hero-visual img{
+  filter:drop-shadow(0 28px 48px rgba(42,60,48,.18));
+}
+.hero-badge{
+  background:linear-gradient(135deg,#102419,#174a2d 62%,#8f1117);
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:13px;
+  box-shadow:0 20px 40px rgba(23,68,41,.20);
+}
+.hero-badge span{color:#8ef0b4}
+
+/* Cards */
+.services-preview{background:linear-gradient(180deg,#fff,#f8fbf9)}
+.service-grid{gap:14px}
+.service-grid article{
+  border:1px solid #dfe9e2;
+  border-radius:16px;
+  background:#fff;
+  margin-right:0;
+  box-shadow:0 14px 34px rgba(29,64,41,.055);
+  transition:.22s;
+}
+.service-grid article:hover{
+  transform:translateY(-4px);
+  box-shadow:0 18px 42px rgba(28,88,48,.10);
+}
+.service-grid span{color:var(--red)}
+.service-grid a{color:var(--green)}
+
+/* Process */
+.process-section{
+  background:
+    radial-gradient(circle at 8% 12%,rgba(39,174,96,.13),transparent 22%),
+    radial-gradient(circle at 92% 15%,rgba(215,25,32,.13),transparent 22%),
+    linear-gradient(135deg,#0d1611,#163923 58%,#4c1115);
+}
+.process-steps b{color:#7ee2a7}
+.process-steps div{border-bottom-color:rgba(255,255,255,.10)}
+
+/* Map */
+.route-map{
+  background:
+    radial-gradient(circle at 18% 78%,rgba(19,138,74,.15),transparent 24%),
+    radial-gradient(circle at 83% 14%,rgba(215,25,32,.14),transparent 22%),
+    linear-gradient(135deg,#effaf3,#fff6f6);
+  border:1px solid #d9e6dd;
+  border-radius:20px;
+  box-shadow:0 24px 48px rgba(27,72,43,.09);
+}
+.route-line{
+  background:linear-gradient(90deg,var(--green),#35b96e,var(--red));
+  box-shadow:0 0 18px rgba(19,138,74,.20);
+}
+.pin{
+  background:var(--red);
+  box-shadow:0 0 0 5px rgba(215,25,32,.10),0 7px 18px rgba(153,18,24,.16);
+}
+.pin-b{background:var(--green)}
+.route-card{
+  background:linear-gradient(135deg,#11231a,#164d2d 66%,#8f1117);
+  border-radius:13px;
+}
+.route-card small{color:#8ef0b4}
+.check-list span{
+  background:linear-gradient(135deg,#f4fbf6,#fff7f7);
+  border:1px solid #dfe8e2;
+  border-radius:11px;
+}
+.check-list span:before{color:var(--green)}
+
+/* Quote / CTA */
+.quote-preview{
+  background:linear-gradient(110deg,#e8f8ee 0%,#f9fbf9 48%,#fff0f1 100%);
+}
+.cta-band{
+  background:
+    radial-gradient(circle at 12% 15%,rgba(39,174,96,.12),transparent 20%),
+    radial-gradient(circle at 90% 22%,rgba(215,25,32,.13),transparent 22%),
+    linear-gradient(135deg,#0d1611,#163923 55%,#4d1115);
+}
+
+/* Pages */
+.page-hero{
+  background:
+    radial-gradient(circle at 90% 20%,rgba(215,25,32,.08),transparent 22%),
+    linear-gradient(180deg,#fff,#f2faf5);
+}
+.service-detail-grid article,.safety-grid article,.contact-grid article{
+  border-radius:15px;
+  border-color:#dfe8e2;
+  box-shadow:0 10px 30px rgba(31,73,45,.045);
+}
+.service-detail-grid span,.safety-grid span,.contact-grid span,.values-grid span{
+  color:var(--red);
+}
+.info-note{
+  background:linear-gradient(90deg,#10341f,#144b2a 65%,#6a1116);
+}
+.info-note strong{color:#a7f3c4}
+.quote-aside{
+  background:linear-gradient(135deg,#0d1611,#164a2b 58%,#691216);
+}
+.values-grid{
+  background:linear-gradient(135deg,#0c1510,#163a23 55%,#451014);
+}
+.values-grid article{border-right-color:rgba(255,255,255,.08)}
+.faq-list details{border-bottom-color:#dfe8e2}
+
+/* Footer */
+footer{
+  background:linear-gradient(135deg,#08100b,#143120 56%,#3f0e12);
+}
+.footer-grid strong{color:#9ceab8}
+.footer-grid a:hover{color:#7ee2a7}
+
+/* Route / price page */
+.routes-hero{
+  background:
+    radial-gradient(circle at 85% 14%,rgba(215,25,32,.22),transparent 25%),
+    radial-gradient(circle at 15% 84%,rgba(19,138,74,.18),transparent 23%),
+    linear-gradient(135deg,#0a1410,#173d26 54%,#5f1116);
+}
+.routes-copy h1 em{color:#93efb7}
+.routes-metrics div{
+  background:rgba(255,255,255,.07);
+  border:1px solid rgba(255,255,255,.13);
+  border-radius:14px;
+}
+.routes-metrics span{color:#9ceab8}
+.routes-metrics strong{color:white}
+.external-source-note{
+  background:linear-gradient(90deg,#e8f8ee,#fff2f3);
+}
+.external-source-note strong{color:var(--red)}
+.route-filter{
+  border-radius:9px;
+  border-color:#dce7df;
+}
+.route-filter.active{
+  background:linear-gradient(135deg,var(--green),var(--red));
+  border-color:transparent;
+}
+.trip-card{
+  border-color:#dfe8e2;
+  border-radius:16px;
+  box-shadow:0 14px 34px rgba(31,75,44,.055);
+  transition:.22s;
+}
+.trip-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 20px 42px rgba(31,75,44,.10);
+}
+.trip-number{color:var(--red)}
+.trip-class{
+  background:#e7f8ed;
+  color:#0e7b3e;
+  border-radius:8px;
+}
+.trip-line{
+  background:linear-gradient(90deg,var(--green),var(--red));
+}
+.trip-price-row strong{color:var(--green)}
+.trip-price-row>span{color:var(--red)}
+.trip-link{color:var(--red)}
+.booking-guide{
+  background:
+    radial-gradient(circle at 12% 10%,rgba(39,174,96,.13),transparent 20%),
+    radial-gradient(circle at 88% 20%,rgba(215,25,32,.13),transparent 21%),
+    linear-gradient(135deg,#0c1510,#173d26 55%,#5a1116);
+}
+.booking-steps article{
+  border-radius:13px;
+  border-color:rgba(255,255,255,.12);
+}
+.booking-steps span{color:#91efb5}
+.home-route-prices{
+  background:linear-gradient(180deg,#fff,#f2faf5 50%,#fff4f4);
+}
+
+/* Extra professional polish */
+.site-header,.trip-card,.service-grid article,.route-map,.quote-form,
+.service-detail-grid article,.safety-grid article,.contact-grid article{
+  overflow:hidden;
+}
+.trip-card:before,.service-grid article:before{
+  content:"";
+  display:block;
+  height:3px;
+  margin:-20px -20px 18px;
+  background:linear-gradient(90deg,var(--green),var(--red));
+}
+.service-grid article:before{
+  margin:-24px -24px 18px;
+}
+::selection{
+  background:#b7f7cf;
+  color:#173622;
+}

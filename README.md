@@ -68,3 +68,16 @@ This version adds:
 The CheckMyBus / Transportes Línea information is used only as external market reference data.
 It is not presented as Proline Transporte inventory, pricing or confirmed bookings.
 Prices and availability can change.
+
+
+## V3 — Red + Green Premium Theme
+
+The website has been redesigned with a more striking professional palette:
+
+- Deep green
+- Bright green
+- Strong red
+- White
+- Dark charcoal
+
+The Routes & Prices section from V2 remains included.

@@ -1,17 +1,13 @@
-PROLINE TRANSPORTE V2 — BLUE + PURPLE
+PROLINE TRANSPORTE V3 — RED + GREEN PREMIUM
 
 1. Extract this ZIP.
-2. Open your GitHub repository:
+2. Open:
    proline-transporte.github.io
 3. Add file → Upload files.
 4. Upload ALL files and folders inside the extracted folder.
-5. Replace matching V1 files.
-6. Commit changes to the main branch.
+5. Replace the existing V2 files.
+6. Commit changes.
 7. GitHub Pages will redeploy automatically.
 
-NEW PAGE:
-https://proline-transporte.github.io/routes-prices.html
-
-IMPORTANT:
-Route fares and trip examples on the new page are external reference data
-from CheckMyBus / Transportes Línea. They may change.
+This V3 keeps the Routes & Prices page and changes the complete visual identity
+to a stronger red + green professional design.
