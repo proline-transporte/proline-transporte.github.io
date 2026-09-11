@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://proline-transporte.github.io/sitemap.xml

@@ -1,0 +1,19 @@
+PROLINE TRANSPORTE — GITHUB PAGES UPLOAD
+
+1. Extract this ZIP on your computer.
+2. Open the GitHub repository:
+   proline-transporte.github.io
+3. Click Add file → Upload files.
+4. Upload ALL files and folders INSIDE the extracted folder.
+5. Do not upload only the ZIP file.
+6. Click Commit changes.
+7. Open Settings → Pages.
+8. If needed choose:
+   Deploy from a branch
+   Branch: main
+   Folder: /(root)
+9. Your website will be:
+   https://proline-transporte.github.io/
+
+IMPORTANT:
+The quote form is a visual website form only. It is not connected to email or a backend yet.
